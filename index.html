@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verdicta Legal Consultant | Excellence in Advocacy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: '#b08d57',
+              'gold-light': '#d4af37',
+              'dark-primary': '#0a0a0a',
+              'dark-secondary': '#141414',
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 1.2s ease-out forwards',
+              'scale-up': 'scaleUp 1.5s ease-out forwards',
+              'slide-up': 'slideUp 0.8s ease-out forwards',
+              'float': 'float 3s ease-in-out infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(10px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              scaleUp: {
+                '0%': { opacity: '0', transform: 'scale(1.05)' },
+                '100%': { opacity: '1', transform: 'scale(1)' },
+              },
+              slideUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-10px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050505;
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+      .font-serif { font-family: 'Playfair Display', serif; }
+      
+      .glass {
+        background: rgba(5, 5, 5, 0.6);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+      }
+
+      .btn-ghost-gold {
+        border: 1px solid rgba(176, 141, 87, 0.5);
+        background: transparent;
+        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+      .btn-ghost-gold:hover {
+        background: rgba(176, 141, 87, 0.1);
+        border-color: #b08d57;
+        box-shadow: 0 0 20px rgba(176, 141, 87, 0.15);
+      }
+
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: #050505; }
+      ::-webkit-scrollbar-thumb { background: #b08d57; }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.95.3"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/VRDCTWEBSITE/assets/index-ClNRYS4E.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
