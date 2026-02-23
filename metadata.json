@@ -1,0 +1,8 @@
+{
+  "name": "Verdicta Legal Consultant",
+  "description": "A premium, high-trust law firm platform with client intake, admin management, and AI-powered legal case summarization.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
